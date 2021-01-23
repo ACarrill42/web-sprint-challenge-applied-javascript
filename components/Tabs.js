@@ -12,13 +12,6 @@
 
 let topic = document.querySelector('.topics');
 
-// followersArray.forEach((follower) => {
-//     axios.get('https://api.github.com/users/' + follower)
-//     .then((res)=> {
-//       console.log(res);
-//       gitCard(res.data);
-//     })
-//   })
 
 axios.get('https://lambda-times-api.herokuapp.com/topics')
 .then((res) => {
