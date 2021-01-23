@@ -24,7 +24,7 @@ function Header() {
 
     span.textContent = 'March 28, 2020';
     h1.textContent = 'Lambda Times';
-    span2.textContent ='98 degrees Fahrenheit';
+    span2.textContent ='98 degrees Fahrenheit'; //do not know how to do the degree symbol in VSCode.
 
     head.appendChild(div);
     div.appendChild(span);
